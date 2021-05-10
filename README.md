@@ -42,8 +42,17 @@ These are the five classifiers which were used in the ensembling, the hyperparam
 
 ```
 |-- Detector.ipynb
+|-- LICENSE
 |-- README.md
-`-- download.sh
+|-- download.sh
+|-- metric_data
+|   |-- count_test_metric.csv
+|   |-- count_train_metric.csv
+|   |-- count_valid_metric.csv
+|   |-- tfidf_test_metrics.csv
+|   |-- tfidf_train_metrics.csv
+|   `-- tfidf_valid_metrics.csv
+`-- requirements.txt
 
-0 directories, 3 files
+1 directory, 11 files
 ```
