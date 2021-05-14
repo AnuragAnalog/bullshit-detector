@@ -38,6 +38,20 @@ These are the five classifiers which were used in the ensembling, the hyperparam
 * Support Vector Classifiers
 * SGD Classifier
 
+## Reproduce the results
+
+If you wish to see the results of the trained models, you can use my models, which can be found in `saved_models` directory.
+
+> The Ensemble models are huge, so I have included a download script which are hosted on [archive.org](archive.org)
+
+## Downloads
+
+If the download script is very slow, you use the below links
+
+[Tfidf Ensemble](https://archive.org/download/bull-shit-detector-tfidf-ensemble/tfidf_ensemble.pkl)
+
+[Count Ensemble](https://archive.org/download/bullshit-detector-count-ensemble/count_ensemble.pkl)
+
 ## Project Directory Structure
 
 ```
@@ -52,7 +66,19 @@ These are the five classifiers which were used in the ensembling, the hyperparam
 |   |-- tfidf_test_metrics.csv
 |   |-- tfidf_train_metrics.csv
 |   `-- tfidf_valid_metrics.csv
-`-- requirements.txt
+|-- requirements.txt
+`-- saved_models
+    |-- count_logreg.pkl
+    |-- count_nb.pkl
+    |-- count_rf.pkl
+    |-- count_sgd.pkl
+    |-- count_svc.pkl
+    |-- download_models.sh
+    |-- tfidf_logreg.pkl
+    |-- tfidf_nb.pkl
+    |-- tfidf_rf.pkl
+    |-- tfidf_sgd.pkl
+    `-- tfidf_svc.pkl
 
-1 directory, 11 files
+2 directories, 22 files
 ```
